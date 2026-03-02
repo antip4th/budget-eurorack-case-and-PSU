@@ -4,6 +4,12 @@ Ok, it is not really a case, as in "enclosure", because it is not enclosed, but 
 
 The buld features two MeanWell PSUs, each of which supplies up to 3A in theory, which should be more than enough for a 84HP case. Only +-12 V supplies, no +5 V.
 
+The cost is about 150 € max. Less, if you already have some cables and screws.
+I found this was quite affordable for an Eurorack case, with busboard, PSU mounting screws etc. included.
+
+To dampen some of the PSU switching noise, I designed a custom filter PCB. It offers one pi-filter per PSU and it removes the switching voltage spikes on the power rails.
+Also work well on prototyping board.
+
 ## BOM Case ## 
 |Part  |Quantity  |Price  (Feb. 2026)  | Link |
 |------|----------|--------------------|------|
@@ -13,6 +19,7 @@ The buld features two MeanWell PSUs, each of which supplies up to 3A in theory, 
 | 84 HP eurorack rails without edge | 1 | 10 € | [Schneidersladen](https://schneidersladen.de/en/divers-sb-rail-19-without-lip) |
 | M3 slider nuts or threaded strips | 1 | 8 - 10 € | [Nuts - Schneidersladen](https://schneidersladen.de/en/frap-tools-sliding-nuts-100-pcs) |
 | | | | [Threaded strips - Schneidersladen](https://schneidersladen.de/en/divers-threaded-strip-with-m3-threads-84hp) |
+| Module Screws | 1 | 6 € | [Schneidersladen](https://schneidersladen.de/en/frap-tools-m3x6-philips-panhead-screws-silver-100-pieces) |
 | M5x25 or M5x20 socket head screws | 6 | Included with rails if you order from Schneidersladen | [Amazon](https://a.co/d/07VXTLld) |
 | | | ~ 8.00 € otherwise | |
 | M3x6 socket head screw | 6 | | | 
@@ -24,7 +31,9 @@ The buld features two MeanWell PSUs, each of which supplies up to 3A in theory, 
 | 3D-printed parts | | 3 | |
 | SUM | | ~ 150 € worst case | |  
 
-In total, this is quite affordable for an Eurorack case, with busboard and PSUs included. And the total price includes some excess materials, like excess cables and screws etc.  
-To dampen some of the PSU switching noise, I designed a custom filter PCB. It offers one pi-filter per PSU and it removes the switching voltage spikes on the power rails.
-
 ## BOM Filter PCB ##
+|Part  |Quantity  |Price  (Feb. 2026)  | Link |
+|------|----------|--------------------|------|
+| Low ESR electrolytic caps 1000 µF | 4 | | |
+| Ceramic caps 100 nF | 4 | | |
+Ferrite core inductor 10 μΗ | 2 | | |
