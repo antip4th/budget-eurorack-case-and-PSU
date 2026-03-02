@@ -36,4 +36,6 @@ Also work well on prototyping board.
 |------|----------|--------------------|------|
 | Low ESR electrolytic caps 1000 µF | 4 | | |
 | Ceramic caps 100 nF | 4 | | |
-Ferrite core inductor 10 μΗ | 2 | | |
+| Ferrite core inductor 10 μΗ | 2 | | |
+| Custom PCB or prototyping board | 1 | | |
+
