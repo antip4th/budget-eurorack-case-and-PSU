@@ -1,6 +1,8 @@
 # budget-eurorack-case-and-PSU
-This repo contains all files to build your own budget 84HP Eurorack case with intrgrated PSU.  
-Ok, it is not really a case, as in "enclosure", because it is not enclosed, but it is still a fairly inexpensive solution to house your modules, compared to other cases.  
+This repo contains all files to build your own budget 84HP Eurorack case with intrgrated PSU and an optional filter PCB.
+Ok, it is not really a case, as in "enclosure", because it is not enclosed, but it is still a fairly inexpensive solution to house your modules, compared to other cases.
+
+The buld features two MeanWell PSUs, each of which supplies up to 3A in theory, which should be more than enough for a 84HP case. Only +-12 V supplies, no +5 V.
 
 BOM Case:
 |Part  |Quantity  |Price  (Feb. 2026)  | Link |
@@ -19,7 +21,10 @@ BOM Case:
 | 0.75 mm²/18 AWG silicone cable | 1 m | 13 € | [Amazon](https://amzn.eu/d/0fPG9uPr) |
 | Insulated cable lugs | 1 | 7 € | [Amazon](https://amzn.eu/d/0cKYAwAh) |
 | Fork wire terminals | 1 | 7 € | [Amazon](https://amzn.eu/d/0jiY2vDV) |
+| 3D-printed parts | | 3 | |
+| SUM | | ~ 150 € worst case | |  
+
+In total, this is quite affordable for an Eurorack case, with busboard and PSUs included. And the total price includes some excess materials, like excess cables and screws etc.  
+To dampen some of the PSU switching noise, I designed a custom filter PCB. It offers one pi-filter per PSU and it removes the switching voltage spikes on the power rails.
 
 BOM Filter PCB:
-
- 
