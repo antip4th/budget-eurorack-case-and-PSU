@@ -38,3 +38,4 @@ Also work well on prototyping board.
 | Ceramic caps 100 nF | 4 | 0.1 € | [reichelt](https://www.reichelt.com/de/en/shop/product/smd_multilayer_ceramic_capacitor_100_n_10_-22889?search=X7R-G1206%2520100n&) |
 | Ferrite core inductor 10 μΗ | 2 | 1 € | [reichelt](https://www.reichelt.com/de/en/shop/product/vertical_inductor_09hcp_ferrite_10_h-138644?country=de&CCTYPE=private&LANGUAGE=en) |
 | Custom PCB or prototyping board | 1 | 15 € if you have it produced | |
+| SUM | | ~ 20 € | |
