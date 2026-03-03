@@ -9,6 +9,8 @@ I found this was quite affordable for an Eurorack case, with busboard, PSU mount
 To dampen some of the PSU switching noise, I designed a custom filter PCB. It offers one pi-filter per PSU and it removes the switching voltage spikes on the power rails.
 Also works well on prototyping board instead of the PCB.
 
+![Case front View](images/front.jpg)
+
 ## BOM Case ## 
 |Part  |Quantity  |Price  (Feb. 2026)  | Link |
 |------|----------|--------------------|------|
