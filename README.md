@@ -43,8 +43,8 @@ Also works well on prototyping board instead of the PCB.
 
 ## Build Instructions
 
->![CAUTION]
->Only work with mains voltage, if you know what you are doing!
+> [!CAUTION]
+> Only work with mains voltage, if you know what you are doing!
 
 The build is pretty straight forward for the general structure. The rails with lip go in the front, the rail without lip goes in the back and is for mounting the bus board. The part `PSUBoxRib` needs to be printed twice (one part mirrored). 
 The PSUs are mounted to the `PSUBoxBottom` part with the M3x5 screws. **Do not use longer screws for this, as the screws could touch the PCU PCB!** 
