@@ -1,14 +1,13 @@
 # budget-eurorack-case-and-PSU #
 This repo contains all files to build your own budget 84HP Eurorack case with intrgrated bus board, PSU and an optional filter PCB.
-Ok, it is not really a case, as in "enclosure", because it is not enclosed, but it is still a fairly inexpensive solution to house your modules, compared to other cases.
 
-The case features two MeanWell PSUs, each of which supplies up to 3A in theory, which should be more than enough for a 84HP case. Only +-12 V supplies, no +5 V.
+The case features two MeanWell PSUs, each of which supplies up to 3 A in theory. This should be more than enough for a 84HP case. Only +-12 V supplies, no +5 V.
 
 The cost is about 150 € max. Less, if you already have some cables and screws.
 I found this was quite affordable for an Eurorack case, with busboard, PSU mounting screws etc. included.
 
 To dampen some of the PSU switching noise, I designed a custom filter PCB. It offers one pi-filter per PSU and it removes the switching voltage spikes on the power rails.
-Also work well on prototyping board.
+Also works well on prototyping board instead of the PCB.
 
 ## BOM Case ## 
 |Part  |Quantity  |Price  (Feb. 2026)  | Link |
