@@ -43,9 +43,20 @@ Also works well on prototyping board instead of the PCB.
 
 ## Build Instructions
 
+# Case
+
 > [!CAUTION]
-> Only work with mains voltage, if you know what you are doing!
+> This build requires cabling of mains power. Only work with mains voltage, if you know what you are doing!  
+> Improper handling can cause electric shock, fire, or death. No liability is accepted for damage or injury.
+
+1. The build starts with the cabling. The wire colors correspond to the colors I used in my build and can be seen in the photos.   
+Connect the mains L, P and PE terminals form the AC cold appliance socket with the respective terminals on both PSUs, so that the PSUs are connected to mains in parallel.
+
+![PSU cabling 1](images/cabling_1)
 
 The build is pretty straight forward for the general structure. The rails with lip go in the front, the rail without lip goes in the back and is for mounting the bus board. The part `PSUBoxRib` needs to be printed twice (one part mirrored). 
 The PSUs are mounted to the `PSUBoxBottom` part with the M3x5 screws. **Do not use longer screws for this, as the screws could touch the PCU PCB!** 
 The PSU mounting parts (`PSUBoxLid`, `PSUBoxRib`) need to be placed on the rails before the side panels are attached.
+
+# PCB
+
