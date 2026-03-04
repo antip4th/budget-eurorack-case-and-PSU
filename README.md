@@ -90,3 +90,7 @@ The soldering process is quite straight forward (it's only 10 components). I wen
 <img src="PSU_filter_pcb/docs/PCB_unsoldered.jpg" width=49%>
 <img src="PSU_filter_pcb/docs/PCB_soldered.jpg" width=49%>
 </p>
+
+## License
+
+The contents of this repo are available under CERN OHL-S license.
