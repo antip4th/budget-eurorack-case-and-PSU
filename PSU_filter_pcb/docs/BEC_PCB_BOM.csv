@@ -1,0 +1,5 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"+12V1,+12V2,-12V1,-12V2,GND1,GND2","6","TestPoint","","","","Connector_Pad:WirePad_L6mm_W4mm","~"
+"C1,C2,C7,C8","4","100n","","","","Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder","~"
+"C3,C4,C5,C6","4","1000u","","","","Capacitor_THT:CP_Radial_D13.0mm_P5.00mm","~"
+"L1,L2","2","10u","","","","Inductor_THT:L_Radial_D12.5mm_P7.00mm_Fastron_09HCP","~"
