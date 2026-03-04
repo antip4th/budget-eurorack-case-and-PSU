@@ -1,5 +1,6 @@
 # budget-eurorack-case-and-PSU #
-This repo contains all files to build your own budget 84HP Eurorack case with intrgrated bus board, PSU and an optional filter PCB.
+This repo contains all files to build your own budget 84HP Eurorack case with intrgrated bus board, PSU and an optional filter PCB.  
+
 I made this, because of my limited budget as a student, I could not afford 250+€ 84HP cases and power supplies. Also I liked the idea to build stuff myself :)  
 
 The case features two MeanWell PSUs, each of which supplies up to 3 A. This should be more than enough for a 84 HP case. Only +-12 V supplies, no +5 V.  
@@ -65,8 +66,8 @@ Also works well on prototyping board instead of the PCB.
 2. Once the cabling is done, put everything together in the PSU case. Fix the PSUs to the case with the two screws on the bottom side. **Use short screws (<= 5mm) for this or you risk pushing the screw against the PCB inside the PSU!**
 
 <p align="center">
-<img src="images/PSU_in_box_2.jpg" width=45%>
-<img src="images/PSU_in_box_2.jpg" width=45%>
+<img src="images/PSUs_in_box_1.jpg" width=45%>
+<img src="images/PSUs_in_box_2.jpg" width=45%>
 </p>
 
 3. Attach the lid parts and the rib parts to the rail **without lip**. Use some of the screws and slider nuts for later fixing the position of the parts on the rail. 
