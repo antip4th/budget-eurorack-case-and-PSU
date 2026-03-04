@@ -3,11 +3,9 @@ This repo contains all files to build your own budget 84HP Eurorack case with in
 
 I made this, because of my limited budget as a student, I could not afford 250+€ 84HP cases and power supplies. Also I liked the idea to build stuff myself :)  
 
-The case features two MeanWell PSUs, each of which supplies up to 3 A. This should be more than enough for a 84 HP case. Only +-12 V supplies, no +5 V.  
-The cost is about 150 € max. Less, if you already have some cables and screws.
+The case features two MeanWell PSUs, each of which supplies up to 3 A. This should be more than enough for a 84 HP case. Only +-12 V supplies, no +5 V. The cost is about 150 € max. Less, if you already have some cables and screws.
 
-To remove the PSU output voltage spikes, I designed a custom filter PCB. It consists of one pi-filter per PSU [(see schematic)](PSU_filter_pcb/docs/psu_filter_schematic.pdf).  
-Also works well on prototyping board instead of the PCB.
+To remove the PSU output voltage spikes, I designed a custom filter PCB. It consists of one pi-filter per PSU [(see schematic)](PSU_filter_pcb/docs/psu_filter_schematic.pdf). It also can be built nicely on prototyping board instead of the PCB.
 
 ![Case front View](images/front.jpg)
 
@@ -49,8 +47,8 @@ Also works well on prototyping board instead of the PCB.
 > This build requires wiring of mains power. Only work with mains voltage, if you know what you are doing!  
 > Improper handling can cause electric shock, fire, or death. No liability is accepted for damage or injury.
 
-1. The build starts with the wiring. The wire colors correspond to the colors I used in my build and can be seen in the photos.
-  1. Use the fork wire terminals to,connect the mains L (red), P (blue) and PE (green) terminals form the AC cold appliance socket with the respective terminals on both PSUs. The PSUs should be  connected to mains **in parallel**. You need to squeeze two cables into one cable lug.
+1. The build starts with the wiring. The wire colors in this text correspond to the colors I used in my build and can be seen in the photos.
+  1. Use the fork wire terminals to, connect the mains L (red), P (blue) and PE (green) terminals form the AC cold appliance socket with the respective terminals on both PSUs. The PSUs should be  connected to mains **in parallel**. You need to squeeze two cables into one cable lug.
   2. To get +-12 V outputs, the `-V` terminal of one of the PSUs is connected to the `+V` terminal of the other one. This node is the ground rail for the +-12 V outputs. I soldered both GND cables (black) onto the PCB's GND pad. If you don't use the PCB, directly crimp the bus board connector.
   3. The remaining `+V` output is the +12 V rail (yellow), and the remaining `-V` output is the -12 V rail (white). Either connect them to the PCB or crimp the connectors for the bus board directly.
   4. If you use the PCB, solder the cables on the output side and crimp the bus board connectors.
