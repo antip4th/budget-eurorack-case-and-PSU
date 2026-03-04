@@ -46,21 +46,21 @@ Also works well on prototyping board instead of the PCB.
 ### Case
 
 > [!CAUTION]
-> This build requires cabling of mains power. Only work with mains voltage, if you know what you are doing!  
+> This build requires wiring of mains power. Only work with mains voltage, if you know what you are doing!  
 > Improper handling can cause electric shock, fire, or death. No liability is accepted for damage or injury.
 
-1. The build starts with the cabling. The wire colors correspond to the colors I used in my build and can be seen in the photos.
+1. The build starts with the wiring. The wire colors correspond to the colors I used in my build and can be seen in the photos.
   1. Use the fork wire terminals to,connect the mains L (red), P (blue) and PE (green) terminals form the AC cold appliance socket with the respective terminals on both PSUs. The PSUs should be  connected to mains **in parallel**. You need to squeeze two cables into one cable lug.
   2. To get +-12 V outputs, the `-V` terminal of one of the PSUs is connected to the `+V` terminal of the other one. This node is the ground rail for the +-12 V outputs. I soldered both GND cables (black) onto the PCB's GND pad. If you don't use the PCB, directly crimp the bus board connector.
   3. The remaining `+V` output is the +12 V rail (yellow), and the remaining `-V` output is the -12 V rail (white). Either connect them to the PCB or crimp the connectors for the bus board directly.
   4. If you use the PCB, solder the cables on the output side and crimp the bus board connectors.
 
 <p align="center">
-<img src="images/cabling_1.jpg" width=49%>
-<img src="images/cabling_2.jpg" width=49%>
+<img src="images/wiring_1.jpg" width=49%>
+<img src="images/wiring_2.jpg" width=49%>
 </p>
 
-2. Once the cabling is done, put everything together in the PSU case. Fix the PSUs to the case with the two screws on the bottom side. **Use short screws (<= 5mm) for this or you risk pushing the screw against the PCB inside the PSU!**
+2. Once the wiring is done, put everything together in the PSU case. Fix the PSUs to the case with the two screws on the bottom side. **Use short screws (<= 5mm) for this or you risk pushing the screw against the PCB inside the PSU!**
 
 <p align="center">
 <img src="images/PSUs_in_box_1.jpg" width=49%>
