@@ -18,7 +18,7 @@ Also works well on prototyping board instead of the PCB.
 | Doepfer Bus board V6 | 1 | 40 € | [Schneidersladen](https://schneidersladen.de/en/doepfer-a-100-bus-board-v6) |
 | 84HP eurorack rails with lip | 2 | 9 € | [Schneidersladen](https://schneidersladen.de/en/divers-sb-rail-19-with-lip) |
 | 84 HP eurorack rails without lip | 1 | 10 € | [Schneidersladen](https://schneidersladen.de/en/divers-sb-rail-19-without-lip) |
-| M3 slider nuts| 1 | 10 € | [Nuts - Schneidersladen](https://schneidersladen.de/en/frap-tools-sliding-nuts-100-pcs) |
+| M3 slider nuts| 1 | 10 € | [Schneidersladen](https://schneidersladen.de/en/frap-tools-sliding-nuts-100-pcs) |
 | Module Screws | 1 | 6 € | [Schneidersladen](https://schneidersladen.de/en/frap-tools-m3x6-philips-panhead-screws-silver-100-pieces) |
 | M5x25 or M5x20 socket head screws | 6 | Included with rails if you order from Schneidersladen | [Amazon](https://a.co/d/07VXTLld) |
 | | | ~ 8.00 € otherwise | |
