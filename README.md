@@ -46,7 +46,7 @@ The power supply with together with the filter PCB can offer up to 3 A per power
 
 ### PCB
 
-The soldering process is quite straight forward (it's only 10 components). I went for solder pads instead of terminal blocks to minimize contact resistance. Because of the big copper planes, for soldering the wires, I had to turn my soldering iron up to 450 °C.
+The soldering process is quite straight forward. I went for solder pads instead of terminal blocks to minimize contact resistance. Because of the big copper planes, for soldering the wires, I had to turn my soldering iron up to 450 °C.
 
 <p align="center">
 <img src="PSU_filter_pcb/docs/PCB_unsoldered.jpg" width=49%>
