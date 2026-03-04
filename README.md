@@ -44,6 +44,15 @@ The power supply with together with the filter PCB can offer up to 3 A per power
 
 ## Build Instructions
 
+### PCB
+
+The soldering process is quite straight forward (it's only 10 components). I went for solder pads instead of terminal blocks to minimize contact resistance. Because of the big copper planes, for soldering the wires, I had to turn my soldering iron up to 450 °C.
+
+<p align="center">
+<img src="PSU_filter_pcb/docs/PCB_unsoldered.jpg" width=49%>
+<img src="PSU_filter_pcb/docs/PCB_soldered.jpg" width=49%>
+</p>
+
 ### Case
 
 > [!CAUTION]
@@ -80,15 +89,6 @@ The power supply with together with the filter PCB can offer up to 3 A per power
 <p align="center">
 <img src="images/back_rail_assembly.jpg" width=49%>
 <img src="images/final_assembly.jpg" width=49%>
-</p>
-
-### PCB
-
-The soldering process is quite straight forward (it's only 10 components). I went for solder pads instead of terminal blocks to minimize contact resistance. Because of the big copper planes, for soldering the wires, I had to turn my soldering iron up to 450 °C.
-
-<p align="center">
-<img src="PSU_filter_pcb/docs/PCB_unsoldered.jpg" width=49%>
-<img src="PSU_filter_pcb/docs/PCB_soldered.jpg" width=49%>
 </p>
 
 ## License
