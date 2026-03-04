@@ -43,20 +43,20 @@ Also works well on prototyping board instead of the PCB.
 
 ## Build Instructions
 
-# Case
+### Case
 
 > [!CAUTION]
 > This build requires cabling of mains power. Only work with mains voltage, if you know what you are doing!  
 > Improper handling can cause electric shock, fire, or death. No liability is accepted for damage or injury.
 
-1. The build starts with the cabling. The wire colors correspond to the colors I used in my build and can be seen in the photos.   
-Connect the mains L, P and PE terminals form the AC cold appliance socket with the respective terminals on both PSUs, so that the PSUs are connected to mains in parallel.
+1. The build starts with the cabling. The wire colors correspond to the colors I used in my build and can be seen in the photos. Connect the mains L (red), P (blue) and PE (green) terminals form the AC cold appliance socket with the respective terminals on both PSUs, so that the PSUs are connected to mains **in parallel**. To get +-12 V outputs, the `-V` terminal of one of the PSUs is connected to the `+V` terminal of the other one. This is the ground rail for the +-12 V. I soldered both GND cables (black) onto the PCB's GND pad. The remaining `+V` output is the +12 V rail (yellow), and the remaining `-V` output is the -12 V rail (white). Either connect them to the PCB or crimp the connectors for the bus board directly.
 
-![PSU cabling 1](images/cabling_1.jpg)
+<img src="images/cabling_1.jpg" width=400>
+![PSU cabling 2](images/cabling_2.jpg)
 
 The build is pretty straight forward for the general structure. The rails with lip go in the front, the rail without lip goes in the back and is for mounting the bus board. The part `PSUBoxRib` needs to be printed twice (one part mirrored). 
 The PSUs are mounted to the `PSUBoxBottom` part with the M3x5 screws. **Do not use longer screws for this, as the screws could touch the PCU PCB!** 
 The PSU mounting parts (`PSUBoxLid`, `PSUBoxRib`) need to be placed on the rails before the side panels are attached.
 
-# PCB
+### PCB
 
