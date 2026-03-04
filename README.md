@@ -53,6 +53,10 @@ The soldering process is quite straight forward. I went for solder pads instead 
 <img src="PSU_filter_pcb/docs/PCB_soldered.jpg" width=49%>
 </p>
 
+<p align="center">
+<img src="images/wiring_PCB.jpg" width=60%>
+</p>
+
 ### Case
 
 > [!CAUTION]
