@@ -56,32 +56,31 @@ Also works well on prototyping board instead of the PCB.
   4. If you use the PCB, solder the cables on the output side and crimp the bus board connectors.
 
 <p align="center">
-<img src="images/cabling_1.jpg" width=500>
-</p>
-
-<p align="center">
-<img src="images/cabling_2.jpg" width=500>
+<img src="images/cabling_1.jpg" width=49%>
+<img src="images/cabling_2.jpg" width=49%>
 </p>
 
 2. Once the cabling is done, put everything together in the PSU case. Fix the PSUs to the case with the two screws on the bottom side. **Use short screws (<= 5mm) for this or you risk pushing the screw against the PCB inside the PSU!**
 
 <p align="center">
-<img src="images/PSUs_in_box_1.jpg" width=45%>
-<img src="images/PSUs_in_box_2.jpg" width=45%>
+<img src="images/PSUs_in_box_1.jpg" width=49%>
+<img src="images/PSUs_in_box_2.jpg" width=49%>
 </p>
 
 3. Attach the lid parts and the rib parts to the rail **without lip**. Use some of the screws and slider nuts for later fixing the position of the parts on the rail. 
 
 <p align="center">
-<img src="images/lid_to_rail.jpg" width=45%>
-<img src="images/PSU_box_to_rail.jpg" width=45%>
+<img src="images/lid_to_rail.jpg" width=49%>
+<img src="images/PSU_box_to_rail.jpg" width=49%>
 </p>
 
-4. Attach the bus board to the rails with slider nuts. Put the ends of the PSUs into the ribs. Close everything up.
+4. Attach the bus board to the rails with slider nuts. Put the ends of the PSUs into the ribs. Close everything up. Attach the side panels and the other rails. Done :D
 
 <p align="center">
-<img src="images/back_rail_assembly.jpg" width=45%>
+<img src="images/back_rail_assembly.jpg" width=49%>
+<img src="images/final_assembly.jpg" width=49%>
 </p>
+
 
 ### PCB
 
