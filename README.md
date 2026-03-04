@@ -51,7 +51,7 @@ Also works well on prototyping board instead of the PCB.
 
 1. The build starts with the cabling. The wire colors correspond to the colors I used in my build and can be seen in the photos.
   1. Use the fork wire terminals to,connect the mains L (red), P (blue) and PE (green) terminals form the AC cold appliance socket with the respective terminals on both PSUs. The PSUs should be  connected to mains **in parallel**. You need to squeeze two cables into one cable lug.
-  2. To get +-12 V outputs, the `-V` terminal of one of the PSUs is connected to the `+V` terminal of the other one. This is the ground rail for the +-12 V. I soldered both GND cables (black) onto the PCB's GND pad. If you don't use the PCB, directly crimp the bus board connector.
+  2. To get +-12 V outputs, the `-V` terminal of one of the PSUs is connected to the `+V` terminal of the other one. This node is the ground rail for the +-12 V outputs. I soldered both GND cables (black) onto the PCB's GND pad. If you don't use the PCB, directly crimp the bus board connector.
   3. The remaining `+V` output is the +12 V rail (yellow), and the remaining `-V` output is the -12 V rail (white). Either connect them to the PCB or crimp the connectors for the bus board directly.
   4. If you use the PCB, solder the cables on the output side and crimp the bus board connectors.
 
@@ -74,13 +74,18 @@ Also works well on prototyping board instead of the PCB.
 <img src="images/PSU_box_to_rail.jpg" width=49%>
 </p>
 
-4. Attach the bus board to the rails with slider nuts. Put the ends of the PSUs into the ribs. Close everything up. Attach the side panels and the other rails. Done :D
+4. Attach the bus board to the rails with slider nuts. Put the ends of the PSUs into the ribs. Close everything up. Attach the side panels and the other rails and you're done!
 
 <p align="center">
 <img src="images/back_rail_assembly.jpg" width=49%>
 <img src="images/final_assembly.jpg" width=49%>
 </p>
 
-
 ### PCB
 
+The soldering process is quite straight forward (it's only 10 components). I went for solder pads instead of terminal blocks to prevent the contact resistance.Because of the big copper planes, for soldering the wires, I had to turn my soldering iron up to 450 °C.
+
+<p align="center">
+<img src="PSU_filter_pcb/PCB_unsoldered.jpg" width=49%>
+<img src="PSU_filter_pcb/PCB_soldered.jpg" width=49%>
+</p>
