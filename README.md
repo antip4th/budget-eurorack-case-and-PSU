@@ -6,7 +6,7 @@ I made this, because of my limited budget as a student, I could not afford 250+â
 The case features two MeanWell PSUs, each of which supplies up to 3 A. This should be more than enough for a 84 HP case. Only +-12 V supplies, no +5 V.  
 The cost is about 150 â‚¬ max. Less, if you already have some cables and screws.
 
-To dampen some of the PSU output voltage spikes, I designed a custom filter PCB. It offers one pi-filter per PSU (see schematic).  
+To remove the PSU output voltage spikes, I designed a custom filter PCB. It consists of one pi-filter per PSU [(see schematic)](PSU_filter_pcb/docs/psu_filter_schematic.pdf).  
 Also works well on prototyping board instead of the PCB.
 
 ![Case front View](images/front.jpg)
