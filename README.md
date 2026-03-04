@@ -29,7 +29,7 @@ The power supply with together with the filter PCB can offer up to 3 A per power
 | 0.75 mm²/18 AWG silicone cable | 1 m | 13 € | [Amazon](https://amzn.eu/d/0fPG9uPr) |
 | Insulated cable lugs | 1 | 7 € | [Amazon](https://amzn.eu/d/0cKYAwAh) |
 | Fork wire terminals | 1 | 7 € | [Amazon](https://amzn.eu/d/0jiY2vDV) |
-| 3D-printed parts | | 3 | |
+| 3D-printed parts | | 3 € | |
 | some heatshrink tubing | | | |
 | SUM | | ~ 150 € worst case | |  
 
