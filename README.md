@@ -86,6 +86,6 @@ Also works well on prototyping board instead of the PCB.
 The soldering process is quite straight forward (it's only 10 components). I went for solder pads instead of terminal blocks to prevent the contact resistance.Because of the big copper planes, for soldering the wires, I had to turn my soldering iron up to 450 °C.
 
 <p align="center">
-<img src="PSU_filter_pcb/PCB_unsoldered.jpg" width=49%>
-<img src="PSU_filter_pcb/PCB_soldered.jpg" width=49%>
+<img src="PSU_filter_pcb/docs/PCB_unsoldered.jpg" width=49%>
+<img src="PSU_filter_pcb/docs/PCB_soldered.jpg" width=49%>
 </p>
