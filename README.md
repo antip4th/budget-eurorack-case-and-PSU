@@ -10,7 +10,7 @@ To remove the PSU output voltage spikes, I designed a custom filter PCB. It cons
 ![Case front View](images/front.jpg)
 
 ## Performance
-The power supply with together with the filter PCB can offer up to 3 A per power rail. In my setup I could only test with up to 2 A per rail. Because of the series resistance in the filter, at 2 A the supply voltage drops by about 120 mV. If tuning the PSU output voltage to slightly more than 12 V, the resulting voltage is still close to +-12 V, even under load. Some ripple switching voltage at around 500 Hz remains with about 10 mV peak to peak.  
+The power supply together with the filter PCB can offer up to 3 A per power rail. In my setup I could only test with up to 2 A per rail. Because of the series resistance in the filter, at 2 A the supply voltage drops by about 120 mV. If tuning the PSU output voltage to slightly more than 12 V, the resulting voltage is still close to +-12 V, even under load. Some ripple switching voltage at around 500 Hz remains with about 10 mV peak to peak.  
 
 ## BOM Case ## 
 |Part  |Quantity  |Price  (Feb. 2026)  | Link |
